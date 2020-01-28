@@ -148,3 +148,96 @@ font-size:large;
     width: 100%;
   }
 }
+
+/* css qui somme nous*/
+#nous {
+  background-color:rgb(37, 36, 36);
+  
+
+  
+}
+.qui-nous {
+  float: left;
+  margin-top: 5%;
+  
+  
+ 
+  
+  
+
+}
+
+#titre{
+  text-align: left;
+  color: rgb(110, 118, 124);
+  margin-left: 10%;
+  font-size: 3em;
+}
+.qui-nous hr{
+  width: 10%;
+  size: "20";
+  height: 3px;
+  border: none;
+  background-color: #34C6D3;
+  margin-left: 12%;
+  border-radius: 10%;
+}
+#para{
+width: 40%;
+font-size: 22px;
+margin-top: 5%;
+margin-left: 5%;
+color: #FFF;
+
+
+
+}
+.qui-nous input[type=button]{
+border-radius: 15px;
+background-color: black;
+opacity: 0.5;
+color: white;
+padding: 10px 20px;
+border: solid 2px rgb(255, 255, 255);
+margin: 10%;
+margin-top: 5%;
+}
+.qui-nous input[type=button]:hover{
+border-radius: 15%;
+padding: 11px 21px;
+background: #34C6D3;
+cursor: pointer;
+border: solid;
+
+
+}
+
+.slider{
+  width: 50%;
+  height: 500px;
+  background: url(../img/slider3.jpg);
+  margin: 0px 757px;
+  animation: slide 20S infinite;
+ margin-top:50%
+}
+
+@keyframes slide{
+    25%{
+      background: url(../img/slider1.jpg);
+      
+    }
+    50%{
+      background: url(../img/slider2.jpg);
+    }
+    75%{
+      background: url(../img/slider4.jpg);
+      
+    }
+    100%{
+      background: url(../img/slider3.jpg);
+    }
+
+
+
+
+}
