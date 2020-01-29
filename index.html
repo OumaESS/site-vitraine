@@ -20,6 +20,7 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
    <!--font awesome-->
    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -50,21 +51,21 @@
         <hr>
       </div>
       <div class="container">
-          <div class="first-line">
+          <div class="first-line" data-aos="flip-left">
             <ul>
               <li><img src="img/clock.png"></li>
               <li>1.	Études du projet</li>
               <p>cahier des charges pour prendre vos besoins avec une définition des objectifs.</p>
             </ul>
           </div>
-          <div class="first-line">
+          <div class="first-line" data-aos="zoom-in">
             <ul>
               <li><img src="img/notebook.png"></li>
               <li>2.	Conception de la maquette </li>
               <p>création graphique comme sketch, design, prototype.</p>
             </ul>
           </div>
-          <div class="first-line">
+          <div class="first-line" data-aos="flip-right">
             <ul>
               <li><img src="img/laptop.png"></li>
               <li>3.	Développement</li>
@@ -72,21 +73,21 @@
             </ul>
           </div>
   
-          <div class="second-line">
+          <div class="second-line" data-aos="flip-left">
             <ul>
               <li><img src="img/clock.png"></li>
               <li>4.	Mise en ligne </li>
               <p>lancement du site web sur le serveur pour le rendre accessible à tous.</p>
             </ul>
           </div>
-          <div class="second-line">
+          <div class="second-line" data-aos="zoom-in">
             <ul>
               <li><img src="img/notebook.png"></li>
               <li>5.	Formation </li>
               <p>formation du client à la mise à jour de son site.</p>
             </ul>
           </div>
-          <div class="second-line">
+          <div class="second-line" data-aos="flip-right">
             <ul>
               <li><img src="img/laptop.png"></li>
               <li>6.	Sécurité informatiques </li>
@@ -99,7 +100,9 @@
     <!-- qui somme nous section -->
 
     <section id="nous">
-      <div class="qui-nous">
+      <div class="qui-nous" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
          <h1 id="titre">QUI SOMME NOUS</h1>
          <hr>
         
@@ -107,16 +110,94 @@
          <input type="button" value="No Réalisation">
          
             </div> 
-            <div class="slider">
+            <div class="sliderY">
                
             </div>
    
 
    </section>
 
+    <!--Nos réalisations-->
+    <section class="Testimonials">
+      <h1>Nos réalisations</h1>
+      <hr>
+   </section>
+   <slider>
+      
+      <slide></slide>
+      <slide></slide>
+      <slide></slide>
+      <slide></slide>
+
+   </slider>
+
+   <!-- Equipes+client -->
+
+   <section class="Equipes">
+    <div id="Equipes1">
+       <h1>Equipes</h1>
+       <hr>
+       <div class="pect animated zoomIn">
+       <div id="pict" data-aos="fade-right"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine" > 
+          <img id="img1" src="img/Achraf.jpg" alt="ACHR" title="ELHOUR Achraf,
+          30ans, Apprenant chez YouCode
+          Préfecture de Youssoufia, Maroc"> 
+ 
+          <img id="img2" src="img/Oumaima.jpg" alt="Ouma" title="ESSAFIR Oumaima,
+          23ans, Apprenante chez YouCode 
+          Préfecture de Youssoufia, Maroc"> 
+ 
+          <img id="img3" src="img/yahya.jpg" alt="Yaya" title="BOUHLAL yahya,
+          24ans, Apprenante chez YouCode 
+          Préfecture de Youssoufia, Maroc">
+ 
+          <img id="img4" src="img/Zakaria.jpg" alt="Zack" title="ELHAOUARI Zakaria,
+          20ans, Apprenante chez YouCode 
+          Préfecture de Marrakech, Maroc"> 
+ 
+          <img id="img5" src="img/Ayoub.jpg" alt="Aub" title="ESSAFI Ayoub,
+          28ans, Apprenante chez YouCode 
+          Préfecture de Youssoufia, Maroc"> 
+       </div>
+       
+ </div>
+     
+    </section>
+    <h1></h1>  
+ 
+    <section class="Client">
+       <div id="Cln"> 
+          <h1>Nos Clients</h1>
+       <hr>
+       <div id="Clients">
+          <div class="pict">
+          <img id="Client1" src="img/tijani.jpg" alt="Tijani">
+          <img id="Client2" src="img/Hanane.jpg" alt="Hanane">
+       </div>
+          <h1 id="nom1">Abd Allatif TIJANI</h1>
+          <p class="prg"> Je suis tres satisfait de votre service</p>
+       </div>
+       <div id="bar">
+       <!-- <img src="img/notation.png" alt="étoile" width="10%" height="10%"> -->
+    </div>
+ 
+    <div id="clnt">
+       <h1 id="nom2">Hanane JABANE</h1>
+       <p class="prg2"> Good job team, your service is the best</p>
+       <!-- <img id="note" src="img/notation.png" alt="étoile" width="8%" height="10%">    -->
+    </div>
+    </section>
+    
+
    <!--script js et jquery-->
    <script type="application/javascript" src="js/script.js"></script>
    <script src="js/jquery341.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
 </body>
 
 
