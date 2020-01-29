@@ -214,7 +214,7 @@ border: solid;
 
 }
 
-.slider{
+.sliderY{
   width: 50%;
   height: 500px;
   position: relative;
@@ -223,11 +223,11 @@ border: solid;
   transform: translate(-50%, -50%);
   background: url(../img/slider3.jpg);
  
-  animation: slide 20S infinite;
+  animation: slideY 20S infinite;
  /* margin-top:50% */
 }
 
-@keyframes slide{
+@keyframes slideY{
     25%{
       background: url(../img/slider1.jpg);
       
@@ -253,3 +253,95 @@ border: solid;
   }
   
   }
+
+  /* Nos réalisations*/
+.Testimonials hr {
+  width: 10%;
+  size:"20";
+  height: 3px;
+  border:none;
+  background-color:#34C6D3;
+  margin-left:45%;
+  border-radius:10px;
+}
+.Testimonials h1 {
+  text-align: center;
+  color: #41464B;
+  padding-top: 23px;
+  font-size: 3em;
+  
+}
+
+.Testimonials hr {
+  width: 10%;
+  size:"20";
+  height: 3px;
+  border:none;
+  background-color:#34C6D3;
+  margin-left:45%;
+  border-radius:10px;
+}
+
+
+slider{
+  display: block;
+  width:100%;
+  height: 100%;
+  background: white;
+  
+  overflow: hidden;
+  position: absolute;
+  padding-top: 23px;
+}
+slider > *{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height:100%;
+  background: rgb(8, 8, 8);
+  animation: slide 12s infinite;
+  overflow: hidden;
+}
+slide:nth-child(1) {
+  left:0%;
+  animation-delay: -1s;
+  background-image: url(../img/oumaima.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+slide:nth-child(2) {
+  left: 100%;  
+  animation-delay: 2s;
+  background-image: url(../img/ziko.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+slide:nth-child(3) {
+  left: 100%;
+  animation-delay: 5s;
+  background-image: url(../img/achraf.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+slide:nth-child(4) {
+  left: 100%;
+  animation-delay: 8s;
+  background-image: url(../img/yaya.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@keyframes slide {
+  0% { left: 100%; width:100%;}
+  5% {left: 0%;}
+  25%{left: 0%;}
+  30%{left:-100%; width: 100%;}
+  30.0001% { left :-100%; width:0%;}
+ 50%{left: 100%; width:0%}
+}
