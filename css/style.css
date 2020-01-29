@@ -151,7 +151,7 @@ font-size:large;
 
 /* css qui somme nous*/
 #nous {
-  background-color:rgb(37, 36, 36);
+
   
 
   
@@ -159,6 +159,7 @@ font-size:large;
 .qui-nous {
   float: left;
   margin-top: 5%;
+  
   
   
  
@@ -187,8 +188,9 @@ width: 40%;
 font-size: 22px;
 margin-top: 5%;
 margin-left: 5%;
-color: #FFF;
+color: rgb(5, 5, 5);
 
+border: solid 2px #34C6D3;
 
 
 }
@@ -215,10 +217,14 @@ border: solid;
 .slider{
   width: 50%;
   height: 500px;
+  position: relative;
+  left: 75%;
+  top: 1000px;
+  transform: translate(-50%, -50%);
   background: url(../img/slider3.jpg);
-  margin: 0px 757px;
+ 
   animation: slide 20S infinite;
- margin-top:50%
+ /* margin-top:50% */
 }
 
 @keyframes slide{
@@ -241,3 +247,9 @@ border: solid;
 
 
 }
+@media only screen and (max-width:600px){
+  .qui-nous{
+    width: 100%;
+  }
+  
+  }

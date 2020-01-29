@@ -20,6 +20,7 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
    <!--font awesome-->
    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -50,21 +51,21 @@
         <hr>
       </div>
       <div class="container">
-          <div class="first-line">
+          <div class="first-line" data-aos="flip-left">
             <ul>
               <li><img src="img/clock.png"></li>
               <li>1.	Études du projet</li>
               <p>cahier des charges pour prendre vos besoins avec une définition des objectifs.</p>
             </ul>
           </div>
-          <div class="first-line">
+          <div class="first-line" data-aos="zoom-in">
             <ul>
               <li><img src="img/notebook.png"></li>
               <li>2.	Conception de la maquette </li>
               <p>création graphique comme sketch, design, prototype.</p>
             </ul>
           </div>
-          <div class="first-line">
+          <div class="first-line" data-aos="flip-right">
             <ul>
               <li><img src="img/laptop.png"></li>
               <li>3.	Développement</li>
@@ -72,21 +73,21 @@
             </ul>
           </div>
   
-          <div class="second-line">
+          <div class="second-line" data-aos="flip-left">
             <ul>
               <li><img src="img/clock.png"></li>
               <li>4.	Mise en ligne </li>
               <p>lancement du site web sur le serveur pour le rendre accessible à tous.</p>
             </ul>
           </div>
-          <div class="second-line">
+          <div class="second-line" data-aos="zoom-in">
             <ul>
               <li><img src="img/notebook.png"></li>
               <li>5.	Formation </li>
               <p>formation du client à la mise à jour de son site.</p>
             </ul>
           </div>
-          <div class="second-line">
+          <div class="second-line" data-aos="flip-right">
             <ul>
               <li><img src="img/laptop.png"></li>
               <li>6.	Sécurité informatiques </li>
@@ -99,7 +100,9 @@
     <!-- qui somme nous section -->
 
     <section id="nous">
-      <div class="qui-nous">
+      <div class="qui-nous" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
          <h1 id="titre">QUI SOMME NOUS</h1>
          <hr>
         
@@ -117,6 +120,10 @@
    <!--script js et jquery-->
    <script type="application/javascript" src="js/script.js"></script>
    <script src="js/jquery341.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
 </body>
 
 
