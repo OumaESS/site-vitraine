@@ -345,6 +345,7 @@ slide:nth-child(4) {
   30.0001% { left :-100%; width:0%;}
  50%{left: 100%; width:0%}
 }
+<<<<<<< HEAD
 
 /* nos Equipe et clients */
 
@@ -500,3 +501,5 @@ slide:nth-child(4) {
   
   
   
+=======
+>>>>>>> 48a1270d139dbeca8c39aaf64775429ab766103e
